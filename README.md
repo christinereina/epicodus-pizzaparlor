@@ -6,13 +6,15 @@
 
 ## Description
 
+My fictional pizza company website where my customers can choose from various delicious toppings and sizes! This exercise was used to demonstrate my knowledge of constructors and prototypes. 
+
 
 ## Installation / Setup
 To take my follow these steps:
 
 Clone my github repository from your computer's Terminal (make sure you are on your Desktop)
  * cd desktop
- * git clone https://github.com/christinereina/epicodus-beepboop
+ * git clone https://github.com/christinereina/epicodus-pizzaparlor
 
 Go to the week4 folder from your Terminal
  * cd week4
