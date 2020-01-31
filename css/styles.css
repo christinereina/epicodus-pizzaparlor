@@ -1,13 +1,14 @@
 img {
-  max-width:20%;
-  height:auto;
+  margin: auto;
+  width: 25%;
+  padding: 10px;
 }
 
 body {
-  padding: -30px;
+  /* padding: -30px; */
+  font-family: 'Fredoka One', cursive;
   text-align: center;
-  margin: 70px;
-  background-image: linear-gradient(to top, #ff001f, #ff9500, #f9c200, #eaeb12);
+  /* margin: 70px; */
 
 }
 
@@ -15,9 +16,23 @@ h1 {
   font-family: 'Fredoka One', cursive;
 }
 
+h2 {
+  font-family: 'Fredoka One', cursive;
+}
+
 .form-group {
   text-align: left;
-  margin-right: 150px;
-  margin-left: 150px;
+  /* margin-right: 150px;
+  margin-left: 150px; */
+}
+
+.well {
+/* padding: 50px; */
+margin: auto;
+width: 60%;
+padding: 10px;
+background-color: rgba(255,255,255,0.4);
 
 }
+
+

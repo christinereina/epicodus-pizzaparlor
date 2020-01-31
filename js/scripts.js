@@ -19,7 +19,6 @@ $(document).ready(function() {
     var size = $("#size").val();
     var pizza = new Pizza(size);
     pizzaPrice(pizza);
-    // console.log(size)
   });
 });
 
