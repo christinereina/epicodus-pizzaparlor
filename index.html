@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>P I Z Z A ~ K A W A I I </title> 
+    <title>P I Z Z A ~ K A W A I I </title>
+    <h1>P I Z Z A ~ K A W A I I</h1>
+    <h6>call now for very much speedy delivery 1-800-kawaii</h6>
 </head>
+
+
 <body>
-  <h1>P I Z Z A ~ K A W A I I</h1>
 
   <form>
     <div class="form-group">
-      <h3>enter your name for the order</h3>
+      <h4>enter your name for the order</h4>
       <input placeholder="name" class="form-control" id="name" type="text">
     </div>
 
     <div class="form-group">
-      <h3>choose your toppings</h3>
+      <h4>choose your toppings</h4>
     <select class="form-control" multiple id="toppings">
       <optgroup label="toppings" data-max-options="4">
       <option selected="selected"><strong>t o p p i n g s</strong></option>
@@ -32,7 +33,7 @@
     </div>
 
     <div class="form-group">
-      <h3>select your size</h3>
+      <h4>select your size</h4>
     <select class="form-control" id="size">
       <option selected="selected"><strong>s i z e</strong></option>
       <option value="personal">personal</option>
@@ -45,5 +46,11 @@
     <button type="submit" class="btn btn-default">Submit</button>
 
   </form>
+  </div>
+
+  <div id="price">
+        <h2>Your pizza is:</h2>
+        <div id="cost"></div>  
+</div>         
 </body>
 </html>
