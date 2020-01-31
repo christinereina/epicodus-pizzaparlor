@@ -1,3 +1,8 @@
+img {
+  max-width:20%;
+  height:auto;
+}
+
 body {
   padding: -30px;
   text-align: center;
@@ -12,7 +17,7 @@ h1 {
 
 .form-group {
   text-align: left;
-  margin-right: 70px;
-  margin-left: 70px;
+  margin-right: 150px;
+  margin-left: 150px;
 
 }
