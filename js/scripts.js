@@ -1,19 +1,15 @@
 // business logic below
-
-function Player(name, mark) {
-  this.name = name;
-  this.mark = mark;
-}
+function Pizza (pizzaTopping, pizzaSize) {
+  this.pizzaTopping = pizzaTopping,
+  this.pizzaSize = pizzaSize,
+  this.cost = 0
+};
 
 // user interface logic below
 
 $(document).ready(function() {
-  
-  $("form").submit(function(event) {
+  $("#input").ready(function(event) {
     event.preventDefault();
-
-    var userInput = parseInt($("input#user").val());
-    var result = robot(userInput);
 
     $("#output").text(result);
   });

@@ -1,4 +1,4 @@
-# P I Z Z A
+# P I Z Z A ~ K A W A I I
 
 #### Object-Oriented JavaScript Independent Project | Week Four Exercise for Epicodus, 01.31.2020
 
@@ -22,6 +22,7 @@ Go to the week4 folder from your Terminal
 Type in open index.html from your Terminal 
   this will open my Pizza Parlor in an HTML browser
 
+Enjoy your pizza ;]
 
 ## Specifications
 
@@ -32,7 +33,7 @@ Type in open index.html from your Terminal
 
 ## Support and contact details
 
-Feel free to contact Christine Augustine for any further assistance, questions or inquiries. Additionally, if you have any suggestions or feedback don't hesitate to contact me. 
+Feel free to contact Christine Augustine for any further assistance, questions or inquiries. Additionally, if you have any suggestions, feedback or just want to say "hi', please don't hesitate to contact me. 
 
 blacchoy@gmail.com | 818-481-0683 
 
