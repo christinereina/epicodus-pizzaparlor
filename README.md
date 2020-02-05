@@ -26,10 +26,16 @@ Enjoy your pizza ;]
 
 ## Specifications
 
+| Behavior                   | Input                         | Output                                   | 
+|----------------------------|-------------------------------|------------------------------------------|
+| User enters pizza size     | pizza size ex: personal       | personal price: $7.50                    | 
+| User enters pizza toppings | pizza toppings ex: corn, miso | corn, miso price: $.50 per topping       | 
+| User hits submit           | Submit                        | Total:  (price displayed here) ex. $8.50 |
+
 
 ## Known Bugs
 
-
+None at this time
 
 ## Support and contact details
 
