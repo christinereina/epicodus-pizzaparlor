@@ -73,18 +73,29 @@
     </select>
     </div>
 
-    <div class="form-group">
-      <h4>choose your toppings (to select more than one, use shift or drag) </h4>
-    <select class="form-control" multiple id="toppings">
-      <optgroup label="t o p p i n g s" data-max-options="4">
-      <option value="corn">Corn</option>
-      <option value="miso">Miso</option>
-      <option value="pollock">Pollock roe</option>
-      <option value="mushroom">Mushroom</option>
-    </select>
-    </div>
+    <div class="col-md-6">
+    <div class="sauce">
+    <h4><label>choose your sauce</label></h4>
+    <input type="radio" name="sauce" value="tomato"> spicy tomato<br>
+    <input type="radio" name="sauce" value="hot"> red hot hot <br>
+    <input type="radio" name="sauce" value="white"> creamy white<br>
+    <input type="radio" name="sauce" value="bbq"> tokyo bbq<br>
+    <input type="radio" name="sauce" value="olive"> our world famous olive oil<br>
+  </div>
+</div>
 
-    <button type="submit" class="btn btn-default">Submit</button>
+  <div class="col-md-6">
+  <div class="toppings">
+    <h4><label>choose your topping(s)</label></h4>
+    <input type="checkbox" name="topping" value="1"> corn<br>
+    <input type="checkbox" name="topping" value="1"> mushroom<br>
+    <input type="checkbox" name="topping" value="2">chicken<br>
+    <input type="checkbox" name="topping" value="2"> grilled pineapple<br>
+    <input type="checkbox" name="topping" value="2" >kobe beef<br>
+  </div>  
+</div>
+ <br>
+    <button type="Make me Happy!" class="btn btn-default">Submit</button>
 
   </form>
   </div>
