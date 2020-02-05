@@ -1,31 +1,27 @@
 // business logic below
-function Pizza(pizzaSize, pizzaTopping) {
-   this.pizzaSize = pizzaSize,
-   this.pizzaTopping = pizzaTopping,
-   this.cost =0;
+function Pizza (size, topping, sauce)
+  this.size = size,
+  this.topping = topping,
+  this.sauce = sauce,
+  this.cost = 0;
 
-Pizza.prototype.price = function () {
-  sizeCost = 0;
-  if (this.pizzaSize === "personal") {
-    this.cost = 6.50;
-    console.log(sizeCost);
-  } else if (this.pizzaSize === "small") {
-    this.cost = 8.00;
-  } else if (this.pizzaSize === "medium") {
-    this.cost = 9.50;
-  } else if (this.pizzaSize === "large") {
-    this.cost = 11.50;
-    console.log(this.cost)
-  } 
-}
+  // Pizza.prototype.size = function () {
 
+  // }
+
+  // Pizza.prototype.toppings = function () {
+    
+  // }
 
 // user interface logic below
 
-// $(document).ready(function() {
-//   $("form").submit(function(event) {
-//     event.preventDefault();
-//     var size = $("#size").val();
-//     var pizza = new Pizza(size);
-// });
-//   });
+$(document).ready(function() {
+  $("form").submit(function(event) {
+    event.preventDefault();
+
+    var size = parseInt($("#size").val());
+    var toppings = $("input[name=toppings]:checked").val();
+    var sauce = $("input[name=sauce]:checked").val();
+
+});
+  });
